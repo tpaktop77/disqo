@@ -3,13 +3,10 @@
         "region": {
             "default": "us-west-2"
         },
-        "account_name": {
+        "app": {
             "default": "wp"
         },
-        "project": {
-            "default": "wp"
-        },
-        "environment": {
+        "env": {
             "default": "dev"
         },
         "vpc_id": {

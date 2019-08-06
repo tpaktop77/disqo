@@ -1,0 +1,9 @@
+#cloud-config
+packages:
+  - aws-cli
+  - git
+runcmd:
+  - /usr/bin/aws --region us-east-1 s3 cp s3://disqo-wp-challange/ansible.zip /tmp
+  - cd /tmp; tar -xzvf ansible.tar.gz
+  - /usr/local/bin/ansible-playbook -i ec2.py site.yml --connection=local --limit `/o
+
