@@ -1,0 +1,12 @@
+---
+- name: Install WordPress, Nginx, and PHP-FPM
+  hosts: localhost
+  remote_user: root
+  # remote_user: user
+  # sudo: yes
+
+  roles:
+    - common
+    - nginx
+    - php-fpm
+    - wordpress
