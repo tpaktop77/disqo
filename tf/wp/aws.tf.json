@@ -1,0 +1,36 @@
+{
+    "variable": {
+        "region": {
+            "default": "us-west-2"
+        },
+        "account_name": {
+            "default": "wp"
+        },
+        "project": {
+            "default": "wp"
+        },
+        "environment": {
+            "default": "dev"
+        },
+        "vpc_id": {
+            "default": "vpc-e80b8d8d"
+        },
+        "master_key_name": {
+            "default": "wp-master"
+        },
+        "master_key_value": {
+            "default": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbkwRzpOIXAN6pc6WCfUetlebaVhKMZM8IwwK8uo3rbtVPRftvfKWyz5E4++AmtVQvd8ZZ5aH4chfZxXij22zPZI+t63XHnzc15lRHVXipkk8x4capzAEyxteC22Gkv7UYAZd8eLG6QZgRhNn84fDKDcm+xd/pLZLhXZlF2bTAIs2DDE6cTTUg+EFy/hsye+12cxE+D9O8dMa5E83njouJAWG5uZ5T6Glf3nGIKnOO2NG0kSMFlCFL1gofn3eIAE8O2/A2Zu/QMzk+UEZQCJO39+0udc7tRUvbD1YoHEGWesG9a7K+iT4qJlGAI30LnUm9J614w+FIr13Rtj3tTlT/"
+        },
+        "environment_bucket": {
+            "default": "wp-environment-variables"
+        }
+    },
+    "provider": {
+        "aws": {
+            "region": "us-west-2",
+            "profile": "default"
+        }
+    }
+
+}
+
